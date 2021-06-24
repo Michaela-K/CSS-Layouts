@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Architects Daughter', 'cursive';
+    font-size: 1.2rem;
+}
+body{
+    width: 88vw;                /* equivalent to 1350px, except responsive. Is this enough to make things responsive or shouold I leave it at 1350px and add media queries? */
+}
+h3{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 1.6rem;
+}
+
+/* LAYOUT 1 */
+.l1-main-container{
+    background-color: grey;
+    width: 100%;
+    margin-bottom: 60px;
+    height: 90vh;
+}
+
+.lpm-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    background-color: whitesmoke;
+    flex: 1 0 40%;
+    margin: 15px;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pm-container{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.phone, .menu{
+    background-color: whitesmoke;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone{
+    width: 50%;
+}
+.menu{
+    width: 80%;
+}
+
+.image-slideshow{
+    background-color: whitesmoke;
+    flex: 1 0 100%;
+    height: 20vh;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.ts-container{
+    width: 100%;
+    display: flex;
+}
+.text-content, .sidebar{
+    background-color: whitesmoke;
+    margin: 15px;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-content{
+    flex: 2;
+}
+.sidebar{
+    flex: 1;
+}
+.footer-1{
+    background-color: whitesmoke;
+    margin: 10px 15px;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 100%;
+}
+
+
+
+/* LAYOUT 2 */
+.l2-main-container{
+    background-color: grey;
+    width: 100%;
+    height: 117vh;
+    text-align: center;
+}
+.container-lp-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-2, .phone-2{
+    background-color: whitesmoke;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-2{
+    width: 35%;
+    height: 20vh;
+}
+.phone-2{
+    width: 45%;
+    height: 10vh;
+    align-self: center;
+}
+.menu-2, .image-slideshow-2{
+    background-color: whitesmoke;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-2{
+    height: 10vh;
+    flex: 1 0 100%;
+}
+.image-slideshow-2{
+    height: 20vh;
+    flex: 1 0 100%;
+}
+.feats{
+    width: 100%;
+    display: flex;
+    height: 20vh;
+}
+
+.feat1, .feat2, .feat3, .feat4{
+    background-color: whitesmoke;
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-ts-2{
+    display: flex;
+}
+.text-content-2, .sidebar-2{
+    background-color: whitesmoke;
+    margin: 10px;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-content-2{
+    flex: 1 0 60%;
+}
+.sidebar-2{
+    flex: 1 0 30%;
+}
+
+.footer-2{
+    background-color: whitesmoke;
+    height: 10vh;
+    margin: 10px;
+    display: flex;
+    flex: 1 0 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* LAYOUT 3 */
+.l3-main-container{
+    background-color: grey;
+    width: 100%;
+    margin-bottom: 60px;
+    height: 105vh;
+    padding-top: 10px;
+}
+
+.blog-3{
+    background-color: whitesmoke;
+    height: 10vh;
+    margin: 15px;
+    display: flex;
+    flex: 1 0 100%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container-lpm-3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-3{
+    background-color: whitesmoke;
+    width: 40%;
+    margin: 15px;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-pm-3{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.phone-3, .menu-3{
+    background-color: whitesmoke;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone-3{
+    width: 50%;
+}
+.menu-3{
+    width: 80%;
+}
+
+.container-its-3{
+    width: 100%;
+    display: flex;
+}
+.container-it-3{
+    flex-direction: column;
+    width: 100%;
+}
+.image-slideshow-3, .text-content-3{
+    background-color: whitesmoke;
+    width: 97%;                     /* why when I minimize, it overflows? isnt it supposed to be 98% of the current size? */
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.image-slideshow-3{
+    height: 10vh;
+}
+.text-content-3{
+    height: 30vh;
+}
+
+.sidebar-3{
+    background-color: whitesmoke;
+    margin: 15px;
+    height: 42vh;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-3{
+    background-color: whitesmoke;
+    flex: 1 0 100%;
+    margin: 10px 15px;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
